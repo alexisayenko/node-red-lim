@@ -7,5 +7,9 @@
     "85387208.a3e47": {
         "posLatitude": "34.707130",
         "posLongitude": "33.022617"
+    },
+    "fd01a3a6.a2e16": {
+        "host": "192.168.10.31:8123",
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5Zjg1ZTQ4NGJmYTc0YzAzOTU2NjdkM2NlMmMyZGI4ZSIsImlhdCI6MTYzODY1MTgyNiwiZXhwIjoxOTU0MDExODI2fQ.yHGolw_V3SIEjX8oP7Gf2ZS0v8OWXUGBy2c1DznFITg"
     }
 }

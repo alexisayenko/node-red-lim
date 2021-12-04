@@ -31,7 +31,7 @@
         "connectionDelay": true,
         "cacheJson": true,
         "heartbeat": false,
-        "heartbeatInterval": 30
+        "heartbeatInterval": "30"
     },
     {
         "id": "58491be5.8d7d64",
