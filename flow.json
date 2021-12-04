@@ -1,13 +1,5 @@
 [
     {
-        "id": "3e30c0b8d801056d",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "7c2d1f75.0b7d7",
         "type": "tab",
         "label": "Lights",
@@ -46,6 +38,7 @@
         "broker": "192.168.10.31",
         "port": "1883",
         "clientid": "",
+        "autoConnect": true,
         "usetls": false,
         "protocolVersion": "4",
         "keepalive": "60",
@@ -75,7 +68,8 @@
         "timeZoneOffset": "99",
         "timeZoneDST": "0",
         "stateTimeFormat": "3",
-        "stateDateFormat": "12"
+        "stateDateFormat": "12",
+        "contextStore": ""
     },
     {
         "id": "75df61de.784228",
@@ -242,8 +236,10 @@
         "timeRestrictions": "",
         "timeRestrictionsType": "none",
         "timeDays": "*",
-        "timeOnlyOddDays": true,
-        "timeOnlyEvenDays": true,
+        "timeOnlyOddDays": false,
+        "timeOnlyEvenDays": false,
+        "timeOnlyOddWeeks": false,
+        "timeOnlyEvenWeeks": false,
         "timeMonths": "*",
         "timedatestart": "",
         "timedateend": "",
@@ -267,6 +263,10 @@
         "endOffsetAlt": 0,
         "endOffsetAltType": "none",
         "endOffsetAltMultiplier": 60000,
+        "withinTimeValue": "",
+        "withinTimeValueType": "msgInput",
+        "outOfTimeValue": "",
+        "outOfTimeValueType": "msgInput",
         "tsCompare": "0",
         "x": 760,
         "y": 500,
