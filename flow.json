@@ -24,12 +24,14 @@
         "id": "fd01a3a6.a2e16",
         "type": "server",
         "name": "Home Assistant",
-        "version": 1,
+        "version": 2,
         "addon": false,
         "rejectUnauthorizedCerts": false,
         "ha_boolean": "y|yes|true|on|home|open",
         "connectionDelay": true,
-        "cacheJson": true
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": 30
     },
     {
         "id": "58491be5.8d7d64",
