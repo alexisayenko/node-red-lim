@@ -1159,7 +1159,7 @@
         "broker": "58491be5.8d7d64",
         "inputs": 0,
         "x": 110,
-        "y": 460,
+        "y": 420,
         "wires": [
             [
                 "d53884b0.76c73"
@@ -1197,5 +1197,25 @@
         "x": 540,
         "y": 260,
         "wires": []
+    },
+    {
+        "id": "adf5acc9490570b3",
+        "type": "mqtt in",
+        "z": "ceae3988.5459a8",
+        "name": "5f85",
+        "topic": "+/0x00158d0006b25f85",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "58491be5.8d7d64",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "d53884b0.76c73"
+            ]
+        ]
     }
 ]
