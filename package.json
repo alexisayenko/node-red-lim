@@ -3,7 +3,8 @@
     "description": "A Node-RED Project",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-contrib-home-assistant-websocket": "0.38.0"
+        "node-red-contrib-home-assistant-websocket": "0.38.0",
+        "node-red-contrib-sun-position": "2.0.6"
     },
     "node-red": {
         "settings": {
