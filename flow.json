@@ -406,7 +406,7 @@
         "type": "mqtt in",
         "z": "7c2d1f75.0b7d7",
         "name": "Magic Cube",
-        "topic": "+/0x00158d0005881208",
+        "topic": "+/0x00158d0005cf9bad",
         "qos": "2",
         "datatype": "auto",
         "broker": "58491be5.8d7d64",
